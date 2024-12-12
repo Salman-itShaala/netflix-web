@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--common-padding);
+  height: 16vh;
+  background-color: transparent;
+  position: relative;
+  z-index: 1;
+}
+
+.logo a svg {
+  width: 128px;
+  height: auto;
+}
+.right-part {
+  display: flex;
+  justify-content: space-between;
+  gap: 4vw;
+}
+.right-part select {
+  padding: 4px 16px;
+  border-radius: 4px;
+}
+
+.right-part button {
+  padding: 4px 16px;
+  border: none;
+  color: #fff;
+  background-color: #d81f26;
+  font-weight: 700;
+  border-radius: 4px;
+}
